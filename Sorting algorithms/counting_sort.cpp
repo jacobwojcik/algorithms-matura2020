@@ -25,7 +25,7 @@ int main()
 
 	countingSort(arr,n);
 
-
+   delete[] arr;
 
   return 0;
 }
