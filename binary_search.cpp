@@ -5,7 +5,7 @@ using namespace std;
 int binSearch(int arr[], int left, int right, int a){
 
     while(left<=right){
-        int pivot=left+(right-1)/2;
+        int pivot=(left+right)/2;
 
         if(arr[pivot]==a) return pivot+1;
 
